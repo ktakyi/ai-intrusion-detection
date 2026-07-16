@@ -1,8 +1,16 @@
+"""
+AI-assisted intrusion monitoring tool.
+
+This script monitors OpenCanary JSON logs, extracts suspicious event
+information, enriches source IP addresses with location data, and sends
+the event details to a locally running Ollama model for analysis.
+
+For educational and authorized defensive security testing only.
+"""
 import ipaddress
 import json
 import os
 import time
-
 import ollama
 import requests
 from watchdog.events import FileSystemEventHandler
