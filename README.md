@@ -40,7 +40,6 @@ The system produces a readable incident assessment that can help a security anal
 7. The AI model generates an incident assessment.
 8. The assessment is displayed for review.
 
-## Architecture
 
 ## Screenshots
 
@@ -59,6 +58,10 @@ The system produces a readable incident assessment that can help a security anal
 ### Email Notification
 ![Email notification of intrusion](sample-data/Screenshots/Email-intrusion-noti.png)
 
+For complete installation and configuration instructions, see the
+[Setup Guide](docs/setup-guide.md).
+
+## Architecture
 ```text
 Potential Intruder
         |
@@ -78,3 +81,4 @@ Local Ollama AI Model
         |
         v
 Incident Summary and Response Recommendations
+
