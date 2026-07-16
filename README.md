@@ -46,18 +46,18 @@ The system produces a readable incident assessment that can help a security anal
 
 ### OpenCanary Monitoring Service
 
-![OpenCanary running in Kali Linux](screenshots/opencanary-running.png)
+![OpenCanary running in Kali Linux](sample-data/screenshots/opencanary-running.png)
 
 ### Simulated Intrusion Event
 
-![Simulated intrusion event captured by OpenCanary](screenshots/intrusion-event.png)
+![Simulated intrusion event captured by OpenCanary](sample-data/screenshots/intrusion-event.png)
 
 ### AI-Generated Incident Analysis
 
-![AI-generated incident assessment](screenshots/ai-analysis.png)
+![AI-generated incident assessment](sample-data/screenshots/ai-analysis.png)
 
 ### Email Notification
-![Email notification of intrusion](screenshots/Email-intrusion-noti.png)
+![Email notification of intrusion](sample-data/screenshots/Email-intrusion-noti.png)
 
 ```text
 Potential Intruder
