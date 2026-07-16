@@ -1,0 +1,11 @@
+{
+    "dst_host": "192.168.1.20",
+    "dst_port": 2222,
+    "local_time": "2026-06-14 19:35:21",
+    "logtype": 4002,
+    "node_id": "kali-security-lab",
+    "src_host": "203.0.113.25",
+    "src_port": 49520,
+    "username": "admin",
+    "password": "[REDACTED]"
+}
