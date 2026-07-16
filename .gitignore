@@ -1,0 +1,36 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# OpenCanary and application logs
+*.log
+logs/
+opencanary.log
+
+# Local OpenCanary configuration
+opencanary.conf
+config/opencanary.conf
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
