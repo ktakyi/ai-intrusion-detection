@@ -42,6 +42,23 @@ The system produces a readable incident assessment that can help a security anal
 
 ## Architecture
 
+## Screenshots
+
+### OpenCanary Monitoring Service
+
+![OpenCanary running in Kali Linux](screenshots/opencanary-running.png)
+
+### Simulated Intrusion Event
+
+![Simulated intrusion event captured by OpenCanary](screenshots/intrusion-event.png)
+
+### AI-Generated Incident Analysis
+
+![AI-generated incident assessment](screenshots/ai-analysis.png)
+
+### Email Notification
+![Email notification of intrusion](screenshots/Email-intrusion-noti.png)
+
 ```text
 Potential Intruder
         |
