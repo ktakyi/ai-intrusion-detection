@@ -1,0 +1,31 @@
+{
+    "device.node_id": "kali-security-lab",
+    "ip.ignorelist": [],
+    "logtype.ignorelist": [],
+
+    "ftp.enabled": false,
+    "http.enabled": true,
+    "http.port": 8080,
+
+    "ssh.enabled": true,
+    "ssh.port": 2222,
+
+    "telnet.enabled": false,
+
+    "logger": {
+        "class": "PyLogger",
+        "kwargs": {
+            "formatters": {
+                "plain": {
+                    "format": "%(message)s"
+                }
+            },
+            "handlers": {
+                "file": {
+                    "class": "logging.FileHandler",
+                    "filename": "/var/tmp/opencanary.log"
+                }
+            }
+        }
+    }
+}
