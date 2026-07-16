@@ -1,5 +1,10 @@
 # AI-Powered Intrusion Detection System
 
+AI-assisted security monitoring system built with OpenCanary, Python,
+Kali Linux, and a locally running Ollama model.
+
+![AI-generated incident assessment](sample-data/Screenshots/ai-analysis.png)
+
 ## Overview
 
 This project is an AI-assisted intrusion monitoring system created in a Kali Linux environment. It uses OpenCanary to detect suspicious network activity and login attempts. A Python monitoring script reads OpenCanary log events, gathers available geographic information about the source IP address, and sends the event details to a locally running Ollama language model for analysis.
